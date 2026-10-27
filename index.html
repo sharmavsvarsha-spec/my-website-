@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Your Name | Biotechnology Student</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; background: #f1f6f3; color: #12302b; line-height: 1.6; }
+    header { display: flex; justify-content: space-between; align-items: center; padding: 18px 6vw; border-bottom: 1px solid #cfdfd8; }
+    header strong { font-size: 1.2rem; }
+    nav a { margin-left: 18px; text-decoration: none; color: #4d6963; font-weight: bold; }
+    nav a:hover { color: #0f5c54; }
+    .hero { display: flex; flex-wrap: wrap; align-items: center; gap: 40px; padding: 60px 6vw; }
+    .hero div.text { flex: 1; min-width: 260px; }
+    .hero h1 { font-size: 2.6rem; line-height: 1.15; margin-bottom: 16px; }
+    .hero p { color: #4d6963; margin-bottom: 24px; }
+    .btn { display: inline-block; background: #0f5c54; color: #fff; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; }
+    .dish { position: relative; width: 280px; height: 280px; border-radius: 50%; background: #e4f1ea; border: 10px solid #fff; box-shadow: 0 0 0 2px #cfdfd8; margin: 0 auto; }
+    .dot { position: absolute; border-radius: 50%; background: #0f5c54; }
+    .a { width: 60px; height: 60px; top: 22%; left: 24%; }
+    .b { width: 40px; height: 40px; top: 55%; left: 58%; background: #e8a33d; }
+    .c { width: 26px; height: 26px; top: 34%; left: 62%; }
+    .d { width: 34px; height: 34px; top: 64%; left: 26%; background: #e8a33d; }
+    section { padding: 40px 6vw; }
+    section h2 { font-size: 1.8rem; margin-bottom: 14px; }
+    section p { color: #4d6963; max-width: 600px; }
+    .grid { display: flex; flex-wrap: wrap; gap: 20px; }
+    .card { flex: 1; min-width: 220px; background: #fff; border: 1px solid #cfdfd8; border-radius: 12px; padding: 22px; }
+    .card h3 { margin-bottom: 8px; }
+    .card p { font-size: 0.95rem; }
+    .skills { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; }
+    .skills li { background: #fff; border: 1px solid #cfdfd8; border-radius: 999px; padding: 6px 16px; }
+    footer { text-align: center; padding: 30px; color: #4d6963; border-top: 1px solid #cfdfd8; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <strong>Your Name</strong>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#learning">Learning</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <div class="text">
+      <h1>Studying how living things work.</h1>
+      <p>Hi, I am a first-year biotechnology student at JECRC University. I like cells, DNA and the tools that help us understand them.</p>
+      <a class="btn" href="#projects">See my work</a>
+    </div>
+    <div class="dish">
+      <i class="dot a"></i><i class="dot b"></i><i class="dot c"></i><i class="dot d"></i>
+    </div>
+  </div>
+
+  <section id="about">
+    <h2>About me</h2>
+    <p>I am in my 1st year, 1st semester. This website is part of my Digital, Data &amp; AI Literacy course. I built it, saved it on GitHub, and published it with Vercel.</p>
+  </section>
+
+  <section id="learning">
+    <h2>What I am learning</h2>
+    <ul class="skills">
+      <li>Cell biology</li>
+      <li>Biochemistry</li>
+      <li>Microbiology basics</li>
+      <li>Using AI tools</li>
+      <li>GitHub</li>
+      <li>Vercel</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card"><h3>This website</h3><p>My first website, deployed using GitHub and Vercel.</p></div>
+      <div class="card"><h3>Resume with AI</h3><p>An ATS-friendly resume made with Claude and Kickresume.</p></div>
+      <div class="card"><h3>Lab notes</h3><p>Short, neat notes from my biotechnology classes.</p></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email me at yourname@example.com</p>
+  </section>
+
+  <footer>&copy; 2026 Your Name. JECRC University.</footer>
+
+</body>
+</html>
